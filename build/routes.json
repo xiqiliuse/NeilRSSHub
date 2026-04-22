@@ -81804,6 +81804,34 @@
     "url": "www.metmuseum.org",
     "lang": "en"
   },
+  "mhlw": {
+    "routes": {
+      "/monthly-labour-survey": {
+        "path": "/monthly-labour-survey",
+        "categories": [
+          "government"
+        ],
+        "example": "/mhlw/monthly-labour-survey",
+        "radar": [
+          {
+            "source": [
+              "www.mhlw.go.jp/toukei/list/30-1a.html"
+            ]
+          }
+        ],
+        "name": "毎月勤労統計調査 全国調査（月別結果）",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "www.mhlw.go.jp/toukei/list/30-1a.html",
+        "location": "monthly-labour-survey.ts",
+        "module": "() => import('@/routes/mhlw/monthly-labour-survey.ts')"
+      }
+    },
+    "apiRoutes": {},
+    "name": "厚生労働省",
+    "url": "www.mhlw.go.jp"
+  },
   "mi": {
     "routes": {
       "/golden": {
@@ -139753,7 +139781,7 @@
       "/novel/:type": {
         "path": "/novel/:type",
         "name": "小说列表",
-        "url": "zxcs.info",
+        "url": "zxcs.click",
         "maintainers": [
           "liaochuan"
         ],
@@ -139776,7 +139804,7 @@
         "radar": [
           {
             "source": [
-              "zxcs.info/:type"
+              "zxcs.click/:type"
             ],
             "target": "/novel/:type"
           }
@@ -139787,7 +139815,7 @@
     },
     "apiRoutes": {},
     "name": "知轩藏书",
-    "url": "zxcs.info",
+    "url": "zxcs.click",
     "lang": "zh-CN"
   },
   "zyshow": {
